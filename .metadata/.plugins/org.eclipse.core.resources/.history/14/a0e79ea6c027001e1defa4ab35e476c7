@@ -1,0 +1,16 @@
+import javax.swing.JOptionPane;
+
+public class PrecioCompra {
+	public static void main(String Josda[]) {
+		double precio, precioFinal;
+		final double descuento=0.1;
+		
+		precio= Double.parseDouble(JOptionPane.showInputDialog("Digite el precio de la compra"));
+		if(precio >50000) {
+			precioFinal= precio-(precio*descuento);
+			System.out.print("El descuento de su compra sera: $"+precioFinal);
+		} else {
+			JOptionPane.showInputDialog("El descuento no aplica a productos con un precio menor a $50.000");
+		}
+	}
+}

@@ -1,0 +1,10 @@
+import javax.swing.JOptionPane;
+
+public class Sueldo {
+	public static void main (String [] args) {
+		final double INCREMENTO = 0.3;
+		double sueldo =Double.parseDouble(JOptionPane.showInputDialog("Digite su salario"));
+		double sueldoFinal = (sueldo*INCREMENTO)+sueldo;
+		System.out.println("Su sueldo anterior era"+sueldo+"con un aumento del 30% su sueldo actual es"+sueldoFinal);
+	};
+}

@@ -1,0 +1,9 @@
+/*Calcular el 15% de un valor constante.*/
+public class TercerPunto {
+	public static void main(String josda[]) {
+		final int VALOR_CON= 20;
+		double porcentaje= 0.15;
+		double valorTotal= VALOR_CON*porcentaje;
+		System.out.println(valorTotal);
+	}
+}

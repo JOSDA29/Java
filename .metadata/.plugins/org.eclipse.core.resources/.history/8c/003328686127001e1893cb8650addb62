@@ -1,0 +1,10 @@
+/*Modificar el algoritmo anterior para que muestre el 15% 
+ *de un valor ingresado por el usuario.*/
+
+import javax.swing.JOptionPane;
+
+public class CuartoPunto {
+	public static void main(String Josda[]) {
+		double valor= parseDouble(JOptionPane.showInputDialog("Digite cual"));
+	}
+}

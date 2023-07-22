@@ -1,0 +1,40 @@
+
+public class OperadoresRelacionales {
+	public static void main(String [] args) {
+		int x=4;
+		int y=5;
+		
+		boolean menorQue=(x<y);
+		System.out.println("4<5 ="+menorQue);
+		
+		boolean mayorQue=(x>y);
+		System.out.println("4>5 ="+mayorQue);
+		
+		boolean mayorIgualQue=(x>=y);
+		System.out.println("4>=5 ="+mayorIgualQue);
+		
+		boolean menorIgualQue=(x<=y);
+		System.out.println("4<=5 ="+menorIgualQue);
+		
+		boolean igualQue= (x==y);
+		System.out.println("4==5 ="+igualQue);
+		
+		boolean diferenteDe= (x!=y);
+		System.out.print("4!=5 ="+diferenteDe);
+		
+		x=16;
+		y=16;
+		System.out.print("16==16 ="+igualQue);
+		
+		x=16;
+		y=16;
+		System.out.print("16==16 ="+diferenteDe);
+		
+		x=-29;
+		y=29;
+		System.out.print("-29==29"+mayorQue);
+		x=-29;
+		y=29;
+		System.out.print("-29==29"+menorQue);
+	}
+}

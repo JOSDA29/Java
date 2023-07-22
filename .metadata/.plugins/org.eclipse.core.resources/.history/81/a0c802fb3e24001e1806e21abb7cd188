@@ -1,0 +1,8 @@
+
+public class Operadores {
+	public static void main(String[]args) {
+		int x = 14;
+		int y = 2;
+		System.out.println("Valor x="+x+" Valor y ="+y);
+	}
+}

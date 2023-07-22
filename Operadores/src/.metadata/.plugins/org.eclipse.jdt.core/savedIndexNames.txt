@@ -1,0 +1,1 @@
+INDEX VERSION 1.134+C:\Users\josep\OneDrive\Desktop\Sena\Cristian David Henao Hoyos\Ejercicios\Operadores\src\.metadata\.plugins\org.eclipse.jdt.core
